@@ -28,17 +28,3 @@ docker-compose --version
 ## remove
 cd ~/
 rm -rf compose/
-
-
-
-# update Raspbian
-
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get -y dist-upgrade
-
-
-
-# reboot
-
-sudo reboot
