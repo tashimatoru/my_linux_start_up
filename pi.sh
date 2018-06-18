@@ -8,7 +8,7 @@ chmod 600 ~/.ssh/id_rsa
 
 
 # Docker
-
+sudo groupadd docker
 curl -sSL https://get.docker.com | sh
 sudo usermod -aG docker `whoami`
 exec $SHELL -l
