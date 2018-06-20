@@ -7,6 +7,13 @@ touch ~/.ssh/id_rsa
 chmod 600 ~/.ssh/id_rsa
 
 
+
+# I2C
+sudo apt-get install i2c-tools
+
+
+
+
 # Docker
 # Install some required packages first
 sudo apt install -y \
