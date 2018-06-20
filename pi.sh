@@ -9,7 +9,19 @@ chmod 600 ~/.ssh/id_rsa
 
 
 # I2C
-sudo apt-get install i2c-tools
+sudo apt-get install -y i2c-tools
+
+# python-smbus
+sudo apt-get install -y python-smbus
+
+
+
+
+
+
+
+
+
 
 
 
